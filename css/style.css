@@ -40,6 +40,10 @@ footer {
     color: #DFF6FF !important;
 }
 
+* a:hover{
+    opacity: 60%;
+}
+
 .about p {
     font-size: 16px !important;
 }
