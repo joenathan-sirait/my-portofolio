@@ -1,36 +1,6 @@
 body {
  font-family: 'Roboto', sans-serif !important;
 }
-
-nav {
-    top: 0;
-    position: sticky!important;
-    z-index: 1!important;
-}
-
-.box{
-    width: 300px;
-    height: 300px;
-    background-color: blue;
-    margin: 8px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-
-footer {
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-color: #06283D;
-    color: white;
-}
 * h1 {
     color: #DFF6FF !important;
     font-size: 52px !important;
@@ -48,9 +18,48 @@ footer {
     font-size: 16px !important;
 }
 
+nav {
+    top: 0;
+    position: sticky!important;
+    z-index: 1!important;
+}
+
+.box{
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+    margin: 8px;
+    border-radius: 8px;
+}
+
+#work img {
+    width: 500px;
+    height: auto;
+}
+
+
+footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #06283D;
+    color: white;
+}
+
 @media (max-width: 768px) {
 
-    
+    * h1 {
+        font-size: 40px !important;
+    } 
+    * p , nav a {
+        font-size: 20px !important;
+    }    
+    .about p {
+        font-size: 14px !important;
+    }
 
     #about img {
         margin-bottom: 100px;
@@ -61,6 +70,30 @@ footer {
     }
     #hero .hero-text, #hero .hero-image {
         text-align: center !important;
+    }
+    .box{
+        width: 300px;
+        height: 100px;
+        background-color: blue;
+        margin: 8px;
+        border-radius: 8px;
+    }
+    
+    #work img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media (max-width: 375px){
+    * h1 {
+        font-size: 32px !important;
+    } 
+    * p , nav a {
+        font-size: 18px !important;
+    }    
+    .about p {
+        font-size: 12px !important;
     }
 }
 

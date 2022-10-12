@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portofolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap"
@@ -19,6 +19,7 @@
   </head>
   <body>
     <div class="container-fluid " style="background-color: #06283D;">
+      
         <div class="container col-lg-12">
             <p>follow me 
               <a href="https://www.instagram.com/joenathansrt"><img class="ms-3" width="30" src="./img/instagram.png" alt="" /></a> 
@@ -33,7 +34,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto ">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"> Home</a>
               </li>
@@ -55,7 +56,9 @@
           </div>
         </div>
       </nav>
-      <div id="hero" class="row my-5 py-5">
+  
+    <section  id="hero" >
+      <div class="row my-5 py-5">
         <div class="hero-text col-lg-6 col-md-12 text-end mt-5  ">
             <p class="mb-0">Hello, i am</p class="mb-0">
         <h1>Joenathan Sirait</h1>
@@ -65,11 +68,13 @@
     <a class="btn btn-info text-light"  href="#about">Learn More</a>
   </div>
   </div>
-        <div class="hero-image col-lg-6 col-md-12 text-start "><img class="img-fluid" style="border-radius: 300px;" width="400" src="./img/WhatsApp Image 2022-10-06 at 12.11.05.jpeg" alt=""></div>
+        <div class="hero-image col-lg-6 col-md-12 text-start "><img class="img-fluid rounded-circle"  width="400" src="./img/WhatsApp Image 2022-10-06 at 12.11.05.jpeg" alt=""></div>
       </div>
-      <div id="about" class="row my-5 py-5 about" style="background-color: #489ed8;">
+    </section>
+    <section  id="about" >
+      <div class="row my-5 py-5 about" style="background-color: #489ed8;">
         <div class="col-lg-6 text-center col-md-12">
-            <img class="img-fluid" width="300" src="./img/144102224_3927410427277132_7671051928687303612_n (1).jpg" alt=""></div>
+            <img class="img-fluid rounded" width="300" src="./img/144102224_3927410427277132_7671051928687303612_n (1).jpg" alt=""></div>
         <div class="content-text col-lg-6 text-start col-md-12">
             <h3 class="text-light">Joenathan Sirait - Junior Web Developer</h3>
         <h1>ABOUT ME</h1>
@@ -92,35 +97,50 @@
           <a class="btn btn-info text-light" onclick="myFunction()"> More Info</a>
         </div>
       </div>
-      <div id="skill" class="row my-5 py-5 text-center">
+    </section>
+    <section id="skill" >
+      <div class="row my-5 py-5 text-center">
         <div class="col-lg-12 my-5"><h1>SKILLS</h1></div>
         <div class="col-lg-12 my-5">
-            <img width="150" src="./img/html.png" alt="">
-            <img width="150" src="./img/css-3.png" alt="">
-            <img width="150" src="./img/java-script.png" alt="">
-            <img width="150" src="./img/php.png" alt="">
-            <img width="150" src="./img/java.png" alt="">
+            <img class="img-fluid" width="150" src="./img/html.png" alt="">
+            <img class="img-fluid" width="150" src="./img/css-3.png" alt="">
+            <img class="img-fluid" width="150" src="./img/java-script.png" alt="">
+            <img class="img-fluid" width="150" src="./img/php.png" alt="">
+            <img class="img-fluid" width="150" src="./img/java.png" alt="">
         </div>
         <div class="col-lg-12 my-5 "><p class="text-info">Happy CLients , Happy me</p></div>
       </div>
-      <div id="work" class="row text-center my-5" style="background-color: #47B5FF;">
+    </section>
+    <section  id="work" >
+      <div class="row text-center my-5" style="background-color: #47B5FF;">
         <div class="col-lg-12 my-5"><h1>WORK</h1></div>
-        <div class="col-lg-12 my-5 d-flex justify-content-center align-items-center flex-wrap">
-            <div class="box">1</div>        
-            <div class="box">2</div>
-            <div class="box">3</div>
-            <div class="box">4</div>
-            <div class="box">5</div>
-            <div class="box">6</div>
+        <div class="col-lg-12 my-5">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 d-flex flex-wrap text-center justify-content-center align-items-center">
+              <img class="img-fluid" src="./img/WhatsApp Image 2022-10-10 at 11.58.18.jpeg" alt="">
+              <div class="box d-flex justify-content-center align-items-center text-center">
+                <p>Laundry Web App using laravel and bootstrap</p>
+              </div>
+                
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex flex-wrap text-center justify-content-center align-items-center">
+              <img class="img-fluid" src="./img/WhatsApp Image 2022-10-10 at 12.04.19.jpeg" alt="">
+              <div class="box d-flex justify-content-center align-items-center text-center">
+                <p>Cashier Web App using laravel and bootstrap</p>
+              </div>
+            </div>
+          </div>
+                  
+           
           </div>
         </div>
-      
+      </section>
       <footer>
         <div class="row">
             <div class="col-12 text-center">
                 <div class="copyright">
                     <p>
-                      &copy; Copyright 2022 &nbsp;&nbsp;&nbsp;<p style="color: rgb(255, 255, 0);"> Build By Joenathan Sirait</p>
+                      &copy; Copyright 2022 &nbsp;&nbsp;&nbsp; Build By Joenathan Sirait
                     </p>
                   </div>
             </div>
